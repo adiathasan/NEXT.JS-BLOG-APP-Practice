@@ -1,0 +1,37 @@
+.container {
+  padding: 1rem;
+  text-align: center;
+  background-color: aqua;
+  textarea {
+    width: 500px;
+    height: 150px;
+    max-width: 100%;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    max-width: 100%;
+    margin: 2rem auto;
+    input {
+      display: block;
+      padding: 10px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      button {
+        margin: 0 1rem;
+      }
+    }
+  }
+}
